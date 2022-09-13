@@ -1,0 +1,7 @@
+<?php
+/* @var \Codilar\HelloWorld\Block\Hello $block */
+?>
+
+<h1><?= $block->getText() ?></h1>
+
+<?php echo $block->getLayout()->createBlock('Mageplaza\Productslider\Block\NewProducts')->setTemplate('productslider.phtml')->toHtml(); ?>
